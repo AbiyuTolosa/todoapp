@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Header from "./components/Header";
+import TextBar from "./components/TextBar";
 
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div className="App">
+      <Header />
+      <TextBar />
+    </div>
+  );
 }
 
 export default App;
